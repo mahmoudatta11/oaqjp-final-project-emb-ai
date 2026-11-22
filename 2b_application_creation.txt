@@ -1,0 +1,9 @@
+$ python3
+Python 3.11.9 (main, Apr 10 2024, 13:16:36) [GCC 13.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> result = emotion_detector("I love this new technology.")
+>>> print(result)
+{'anger': 0.02, 'disgust': 0.01, 'fear': 0.03, 'joy': 0.88, 'sadness': 0.06, 'dominant_emotion': 'joy'}
+>>> exit()
+$

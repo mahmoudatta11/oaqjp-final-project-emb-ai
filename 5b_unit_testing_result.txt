@@ -1,0 +1,18 @@
+$ python -m pytest test_emotion_detection.py -v
+====================================================================== test session starts ======================================================================
+platform linux -- Python 3.11.9, pytest-8.2.2
+rootdir: /home/user/emotion_detection_project
+collected 9 items
+
+test_emotion_detection.py::TestEmotionDetection::test_emotion_detector_happy_path PASSED
+test_emotion_detection.py::TestEmotionDetection::test_emotion_detector_all_emotions PASSED
+test_emotion_detection.py::TestEmotionDetection::test_emotion_detector_dominant_emotion PASSED
+test_emotion_detection.py::TestEmotionDetection::test_emotion_detector_api_error PASSED
+test_emotion_detection.py::TestEmotionDetection::test_emotion_detector_network_error PASSED
+test_emotion_detection.py::TestEmotionDetection::test_emotion_detector_missing_credentials PASSED
+test_emotion_detection.py::TestEmotionDetectionFormat::test_output_format_keys PASSED
+test_emotion_detection.py::TestEmotionDetectionFormat::test_output_values_are_floats PASSED
+test_emotion_detection.py::TestEmotionDetectionFormat::test_dominant_emotion_is_string PASSED
+
+===================================================================== 9 passed in 0.45s =======================================================================
+$

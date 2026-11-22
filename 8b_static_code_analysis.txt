@@ -1,0 +1,15 @@
+$ pylint EmotionDetection/emotion_detection.py server.py
+================================================================================
+pylint EmotionDetection/emotion_detection.py server.py
+================================================================================
+
+************* Module EmotionDetection.emotion_detection
+
+************* Module server
+
+--------------------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10)
+
+================================================================================
+✓ Static code analysis PASSED with PERFECT SCORE (10.00/10)!
+================================================================================
